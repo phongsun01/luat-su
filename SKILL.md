@@ -306,6 +306,7 @@ skill_view("luat-su", "resources/domains/03-doanh-nghiep-lao-dong.md")
 skill_view("luat-su", "resources/domains/04-dat-dai-xay-dung.md")
 skill_view("luat-su", "resources/domains/05-thue-tai-chinh.md")
 skill_view("luat-su", "resources/domains/06-chuyen-nganh-khac.md")
+skill_view("luat-su", "resources/domains/07-dau-thau.md")
 ```
 Lọc các hàng trong bảng "Vòng đời / Khâu kỹ thuật" có liên quan đến 5 trục đã xác định → rút ra danh sách VB từ cột **"Căn cứ pháp lý"** → đưa vào bảng SOT thô (chỉ lấy tên VB + số hiệu, chưa cần nguyên văn). Không đọc hết file nếu không liên quan — domain files có nhiều vòng đời, chỉ lấy phần khớp với Hành vi và Đối tượng của tình huống.
 
@@ -315,7 +316,8 @@ Lọc các hàng trong bảng "Vòng đời / Khâu kỹ thuật" có liên quan
 | Hình sự & Hành chính | `resources/domains/02-hinh-su-hanh-chinh.md` | tội phạm, khởi tố, án treo, tham nhũng, phạt vi phạm, khiếu nại, tố cáo, giấy phép, phạt giao thông, căn cước. |
 | Doanh nghiệp & Lao động | `resources/domains/03-doanh-nghiep-lao-dong.md` | thành lập công ty, cổ đông, vốn, phá sản, đầu tư, sa thải, lương, BHXH, hợp đồng lao động, kỷ luật. |
 | Đất đai & Xây dựng | `resources/domains/04-dat-dai-xay-dung.md` | sổ đỏ, đền bù, chuyển nhượng, tiền SDĐ, giá đất, giấy phép xây dựng, chung cư, nhà ở xã hội, dự án BĐS. |
-| Thuế & Tài chính | `resources/domains/05-thue-tai-chinh.md` | khai thuế, hoàn thuế, truy thu, TNCN, TNDN, VAT, hóa đơn, đấu thầu, nhà thầu. |
+| Thuế & Tài chính | `resources/domains/05-thue-tai-chinh.md` | khai thuế, hoàn thuế, truy thu, TNCN, TNDN, VAT, hóa đơn, tài chính doanh nghiệp. |
+| Đấu thầu & Mua sắm công | `resources/domains/07-dau-thau.md` | đấu thầu, HSMT, HSDT, nhà thầu, gói thầu, KQLCNT, bảo lãnh dự thầu, chỉ định thầu, chào hàng cạnh tranh, muasamcong, KHLCNT. |
 | Chuyên ngành Khác | `resources/domains/06-chuyen-nganh-khac.md` | an ninh mạng, dữ liệu, AI, chữ ký số, nhãn hiệu, bản quyền, ĐTM, ô nhiễm, GPLX, điện lực, năng lượng. |
 
 ---
