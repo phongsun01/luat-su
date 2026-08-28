@@ -6,8 +6,8 @@
 > **VB xương sống:**
 > - **Luật Đấu thầu 2023** (22/2023/QH15, HL 01/01/2024)
 > - **Nghị định 214/2025/NĐ-CP** — Quy định chi tiết và hướng dẫn thi hành Luật Đấu thầu 2023 (thay NĐ 24/2024)
-> - **Thông tư 06/2024/TT-BKHĐT** — Mẫu hồ sơ mời thầu, mẫu báo cáo đánh giá
-> - **Thông tư 07/2024/TT-BKHĐT** — Đấu thầu qua mạng (hệ thống muasamcong.mpi.gov.vn)
+> - **Thông tư 79/2025/TT-BTC** (04/08/2025) — Hướng dẫn cung cấp, đăng tải thông tin về đấu thầu và mẫu hồ sơ đấu thầu trên Hệ thống mạng đấu thầu quốc gia (thay TT 79/2025/TT-BTC & TT 80/2025/TT-BTC về đăng tải thông tin/E-HSMT)
+> - **Thông tư 80/2025/TT-BTC** (08/08/2025) — Quy định chi tiết mẫu hồ sơ yêu cầu, báo cáo đánh giá, báo cáo thẩm định, kiểm tra, báo cáo tình hình thực hiện hoạt động đấu thầu (thay TT 80/2025/TT-BTC về mẫu báo cáo/HSYC)
 
 ---
 
@@ -20,7 +20,7 @@
 | 3. Xác định hình thức lựa chọn nhà thầu | Luật ĐT 2023 Điều 20-27 | Đấu thầu rộng rãi / hạn chế / chỉ định thầu / chào hàng cạnh tranh / mua sắm trực tiếp / tự thực hiện |
 | 4. Lập dự toán / giá gói thầu | NĐ 206/2026 (xây dựng); NĐ 214/2025 | Giá gói thầu ≤ tổng mức đầu tư được duyệt |
 | 5. Phê duyệt KHLCNT | Luật ĐT 2023 Điều 40; NĐ 214/2025 | Người có thẩm quyền phê duyệt trước khi đăng tải |
-| 6. Đăng tải KHLCNT | TT 07/2024 | Đăng trên hệ thống mạng đấu thầu quốc gia (muasamcong.mpi.gov.vn) |
+| 6. Đăng tải KHLCNT | TT 79/2025/TT-BTC | Đăng trên hệ thống mạng đấu thầu quốc gia (muasamcong.mpi.gov.vn) |
 
 ---
 
@@ -30,16 +30,16 @@
 
 | Khâu kỹ thuật | Căn cứ pháp lý | Thời hạn / Điều kiện |
 |---|---|---|
-| 1. Lập E-HSMT | TT 06/2024/TT-BKHĐT; NĐ 214/2025 | Theo mẫu chuẩn; tiêu chí đánh giá phải rõ ràng, không gây rào cản |
+| 1. Lập E-HSMT | TT 79/2025/TT-BTC; TT 80/2025/TT-BTC; NĐ 214/2025 | Theo mẫu chuẩn; tiêu chí đánh giá phải rõ ràng, không gây rào cản |
 | 2. Thẩm định & Phê duyệt E-HSMT | Luật ĐT 2023 Điều 76; NĐ 214/2025 | Bên mời thầu / tổ chuyên gia thẩm định trước khi phát hành |
-| 3. Đăng tải & Phát hành E-HSMT | TT 07/2024 | Thời gian bán HSMT: ≥3 ngày làm việc (gói thầu thông thường); ≥5 ngày (gói thầu lớn) |
+| 3. Đăng tải & Phát hành E-HSMT | TT 79/2025/TT-BTC | Thời gian bán HSMT: ≥3 ngày làm việc (gói thầu thông thường); ≥5 ngày (gói thầu lớn) |
 | 4. Thời gian chuẩn bị E-HSDT | Luật ĐT 2023 Điều 44; NĐ 214/2025 | Tối thiểu 10 ngày (gói thầu thông thường); 20 ngày (gói thầu lớn/phức tạp) tính từ ngày phát hành HSMT |
-| 5. Nhà thầu nộp E-HSDT + Bảo lãnh dự thầu | TT 07/2024 | Nộp qua hệ thống; bảo lãnh dự thầu: 1-3% giá gói thầu; hiệu lực = thời gian có hiệu lực HSDT + 30 ngày |
-| 6. Mở thầu điện tử | TT 07/2024 | Tự động theo giờ quy định trên hệ thống; biên bản mở thầu tự động sinh |
-| 7. Đánh giá E-HSDT — Bước 1: Kiểm tra sơ bộ | NĐ 214/2025; TT 06/2024 | Kiểm tra tính hợp lệ, bảo lãnh dự thầu, tư cách hợp lệ |
-| 8. Đánh giá E-HSDT — Bước 2: Đánh giá kỹ thuật | NĐ 214/2025; TT 06/2024 | Theo tiêu chí kỹ thuật trong HSMT; đạt/không đạt hoặc chấm điểm |
+| 5. Nhà thầu nộp E-HSDT + Bảo lãnh dự thầu | TT 79/2025/TT-BTC | Nộp qua hệ thống; bảo lãnh dự thầu: 1-3% giá gói thầu; hiệu lực = thời gian có hiệu lực HSDT + 30 ngày |
+| 6. Mở thầu điện tử | TT 79/2025/TT-BTC | Tự động theo giờ quy định trên hệ thống; biên bản mở thầu tự động sinh |
+| 7. Đánh giá E-HSDT — Bước 1: Kiểm tra sơ bộ | NĐ 214/2025; TT 80/2025/TT-BTC | Kiểm tra tính hợp lệ, bảo lãnh dự thầu, tư cách hợp lệ |
+| 8. Đánh giá E-HSDT — Bước 2: Đánh giá kỹ thuật | NĐ 214/2025; TT 80/2025/TT-BTC | Theo tiêu chí kỹ thuật trong HSMT; đạt/không đạt hoặc chấm điểm |
 | 9. Đánh giá E-HSDT — Bước 3: Đánh giá tài chính | NĐ 214/2025 | Phương pháp: Giá thấp nhất / Giá đánh giá / Điểm tổng hợp (chọn từ KHLCNT) |
-| 10. Lập báo cáo đánh giá HSDT | TT 06/2024 | Theo mẫu; ghi rõ căn cứ loại/chọn từng nhà thầu |
+| 10. Lập báo cáo đánh giá HSDT | TT 80/2025/TT-BTC | Theo mẫu; ghi rõ căn cứ loại/chọn từng nhà thầu |
 | 11. Thẩm định KQLCNT | Luật ĐT 2023 Điều 76; NĐ 214/2025 | Bên mời thầu / tổ thẩm định độc lập |
 | 12. Phê duyệt KQLCNT | Luật ĐT 2023 Điều 77 | Người có thẩm quyền ký; trong 5 ngày làm việc sau thẩm định |
 | 13. Thông báo KQLCNT | Luật ĐT 2023 Điều 78; NĐ 214/2025 | Đăng trên hệ thống mạng + thông báo cho các nhà thầu; nhà thầu không trúng được hoàn trả bảo lãnh dự thầu trong 20 ngày |
@@ -53,7 +53,7 @@
 |---|---|---|
 | 1. Thương thảo hợp đồng | Luật ĐT 2023 Điều 19; NĐ 214/2025 | Không được thay đổi nội dung cơ bản so với HSMT/HSDT; thời gian ≤20 ngày từ thông báo KQLCNT |
 | 2. Hoàn thiện & Ký kết HĐ | Luật ĐT 2023; BLDS 2015 | Ký trong thời gian hiệu lực bảo lãnh dự thầu; nhà thầu nộp bảo lãnh thực hiện HĐ (3-10% giá HĐ) trước khi ký |
-| 3. Đăng tải HĐ lên hệ thống | TT 07/2024 | Trong 7 ngày kể từ ngày ký |
+| 3. Đăng tải HĐ lên hệ thống | TT 79/2025/TT-BTC | Trong 7 ngày kể từ ngày ký |
 | 4. Triển khai thực hiện HĐ | Luật ĐT 2023; NĐ 214/2025 | Theo tiến độ trong HĐ; thanh toán theo khối lượng nghiệm thu |
 | 5. Điều chỉnh HĐ (nếu có) | Luật ĐT 2023 Điều 61-70; NĐ 214/2025 | Chỉ được điều chỉnh theo các trường hợp luật cho phép; phải có phê duyệt |
 | 6. Nghiệm thu & Thanh toán | NĐ 214/2025; NĐ 206/2026 (XD) | Nghiệm thu từng phần / toàn bộ; thanh toán trong 28 ngày sau nghiệm thu |
@@ -167,6 +167,6 @@ search: site:thuvienphapluat.vn "kinh nghiệm tương tự" "hợp đồng tư�
 |---|---|---|
 | Luật 22/2023/QH15 (Luật Đấu thầu 2023) | Khung pháp lý tổng thể | 01/01/2024 |
 | NĐ 214/2025/NĐ-CP | Chi tiết thi hành Luật ĐT 2023; thay NĐ 24/2024 | Xem NĐ |
-| TT 06/2024/TT-BKHĐT | Mẫu HSMT, mẫu báo cáo đánh giá | 2024 |
-| TT 07/2024/TT-BKHĐT | Đấu thầu qua mạng, E-HSMT, E-HSDT | 2024 |
+| TT 79/2025/TT-BTC; TT 80/2025/TT-BTC | Mẫu HSMT, mẫu báo cáo đánh giá | 2024 |
+| TT 79/2025/TT-BTC/TT-BKHĐT | Đấu thầu qua mạng, E-HSMT, E-HSDT | 2024 |
 | NĐ 122/2021/NĐ-CP (sửa đổi) | Xử phạt VPHC lĩnh vực đấu thầu | Xem NĐ |
