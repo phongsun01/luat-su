@@ -5,9 +5,11 @@
 >
 > **VB xương sống:**
 > - **Luật Đấu thầu 2023** (22/2023/QH15, HL 01/01/2024)
+>   - *Sửa đổi bởi:* **Luật số 57/2024/QH15** (29/11/2024) — Sửa đổi, bổ sung một số điều của Luật Quy hoạch, Luật Đầu tư, Luật PPP và Luật Đấu thầu.
+>   - *Sửa đổi bởi:* **Luật số 90/2025/QH15** (2025) — Sửa đổi, bổ sung một số điều của Luật Đấu thầu, Luật PPP, Luật Hải quan, Luật Thuế GTGT, Luật Thuế XNK, Luật Đầu tư, Luật Đầu tư công, Luật Quản lý, sử dụng tài sản công.
 > - **Nghị định 214/2025/NĐ-CP** — Quy định chi tiết và hướng dẫn thi hành Luật Đấu thầu 2023 (thay NĐ 24/2024)
-> - **Thông tư 79/2025/TT-BTC** (04/08/2025) — Hướng dẫn cung cấp, đăng tải thông tin về đấu thầu và mẫu hồ sơ đấu thầu trên Hệ thống mạng đấu thầu quốc gia (thay TT 79/2025/TT-BTC & TT 80/2025/TT-BTC về đăng tải thông tin/E-HSMT)
-> - **Thông tư 80/2025/TT-BTC** (08/08/2025) — Quy định chi tiết mẫu hồ sơ yêu cầu, báo cáo đánh giá, báo cáo thẩm định, kiểm tra, báo cáo tình hình thực hiện hoạt động đấu thầu (thay TT 80/2025/TT-BTC về mẫu báo cáo/HSYC)
+> - **Thông tư 79/2025/TT-BTC** (04/08/2025) — Hướng dẫn cung cấp, đăng tải thông tin về đấu thầu và mẫu hồ sơ đấu thầu trên Hệ thống mạng đấu thầu quốc gia
+> - **Thông tư 80/2025/TT-BTC** (08/08/2025) — Quy định chi tiết mẫu hồ sơ yêu cầu, báo cáo đánh giá, báo cáo thẩm định, kiểm tra, báo cáo tình hình thực hiện hoạt động đấu thầu
 
 ---
 
@@ -166,6 +168,8 @@ search: site:thuvienphapluat.vn "kinh nghiệm tương tự" "hợp đồng tư�
 | VB | Nội dung chính | Hiệu lực / Ban hành |
 |---|---|---|
 | Luật 22/2023/QH15 (Luật Đấu thầu 2023) | Khung pháp lý tổng thể về đấu thầu & lựa chọn nhà thầu | 01/01/2024 |
+| Luật 57/2024/QH15 | Sửa đổi, bổ sung một số điều của Luật Quy hoạch, Luật Đầu tư, Luật PPP và Luật Đấu thầu | 29/11/2024 |
+| Luật 90/2025/QH15 | Sửa đổi, bổ sung Luật Đấu thầu, PPP, Hải quan, Thuế GTGT, Thuế XNK, Đầu tư, Đầu tư công, QLSD tài sản công | 2025 |
 | NĐ 214/2025/NĐ-CP | Quy định chi tiết thi hành Luật ĐT 2023 (thay NĐ 24/2024) | Xem NĐ |
 | TT 79/2025/TT-BTC | Hướng dẫn đăng tải thông tin & mẫu hồ sơ đấu thầu trên mạng ĐT quốc gia | 04/08/2025 |
 | TT 80/2025/TT-BTC | Mẫu hồ sơ yêu cầu, báo cáo đánh giá, thẩm định, kiểm tra hoạt động đấu thầu | 08/08/2025 |
