@@ -147,6 +147,11 @@ Ghi log ORIENT vào file phase: `## ORIENT — [timestamp/vòng N]` + kết qu�
 
 Đây là pha phân biệt tư vấn chuyên nghiệp với tư vấn nghiệp dư. Sau khi có SOT ủng hộ phương án, **bắt buộc chơi vai luật sư đối phương** để tìm phản đề.
 
+**BẮT BUỘC** load thư viện mẫu phản đề trước pha DECIDE:
+```
+skill_view("luat-su", "resources/adversarial-patterns.md")   ← tra cứu bẫy pháp lý & VB phản chiều theo lĩnh vực
+```
+
 **3 câu hỏi bắt buộc:**
 
 ```
@@ -323,6 +328,7 @@ Lọc các hàng trong bảng "Vòng đời / Khâu kỹ thuật" có liên quan
 | `resources/cross-reference-guide.md` | `skill_view("luat-su", "resources/cross-reference-guide.md")` | **BẮT BUỘC** trước OBSERVE + ORIENT |
 | `resources/citation-format.md` | `skill_view("luat-su", "resources/citation-format.md")` | OBSERVE (trích dẫn) + ACT |
 | `resources/search-sources.md` | `skill_view("luat-su", "resources/search-sources.md")` | **BẮT BUỘC** trước OBSERVE |
+| `resources/adversarial-patterns.md` | `skill_view("luat-su", "resources/adversarial-patterns.md")` | **BẮT BUỘC** trước DECIDE |
 
 > ⚠️ **QUAN TRỌNG:** Luôn dùng `skill_view` tool để đọc tất cả file trong `resources/`. **Tuyệt đối không** dùng `read_file` hay `terminal` để đọc — các tool đó không truy cập được path ngoài workspace.
 
