@@ -1,7 +1,7 @@
-# Bản đồ Quy trình: Thuế, Tài chính & Đầu tư công
+# Bản đồ Quy trình: Thuế, Phí & Hải quan
 
 > **Baseline:** 20/07/2026
-> **Keyword nhận diện chung:** khai thuế, hoàn thuế, truy thu, TNCN, TNDN, VAT, hóa đơn, hải quan, đấu thầu, nhà thầu.
+> **Keyword nhận diện chung:** khai thuế, hoàn thuế, truy thu, TNCN, TNDN, VAT, hóa đơn điện tử, hải quan, xuất nhập khẩu, thanh tra thuế, quyết toán thuế.
 
 ## Vòng đời 1: Quản lý Thuế & Hóa đơn
 
@@ -42,12 +42,3 @@
 | Vấn đề | Căn cứ pháp lý (Luật gốc + NĐ/TT) |
 |---|---|
 | Thuế Xuất nhập khẩu | **Luật Thuế XNK 2016**<br>- *Nghị định 134/2016/NĐ-CP:* Chi tiết Luật Thuế XNK. |
-
-## Vòng đời 3: Đấu thầu & Lựa chọn Nhà thầu (Micro-Lifecycle)
-
-| Khâu Kỹ thuật | Căn cứ pháp lý (Luật Đấu thầu 2023) |
-|---|---|
-| 1. Lập Kế hoạch & Lập HSMT | - *Nghị định 214/2025/NĐ-CP:* Trình tự thủ tục.<br>- *Thông tư 06/2024/TT-BKHĐT:* Mẫu Báo cáo đánh giá, mẫu E-HSMT. |
-| 2. Phát hành, Nhận, Mở thầu | - *Nghị định 214/2025/NĐ-CP:* Quy định về thời gian, bảo lãnh dự thầu. |
-| 3. Đánh giá & Chấm thầu | - *Luật Đấu thầu 2023:* Các phương pháp đánh giá (Giá thấp nhất, Giá đánh giá, Điểm tổng hợp). |
-| 4. Phê duyệt & Ký HĐ | - Thương thảo hợp đồng → Phê duyệt KQLCNT → Ký kết hợp đồng thi công/tư vấn. |
