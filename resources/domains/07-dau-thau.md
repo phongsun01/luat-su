@@ -163,10 +163,10 @@ search: site:thuvienphapluat.vn "kinh nghiệm tương tự" "hợp đồng tư�
 
 ## Bảng VB Tham chiếu Nhanh
 
-| VB | Nội dung chính | Hiệu lực |
+| VB | Nội dung chính | Hiệu lực / Ban hành |
 |---|---|---|
-| Luật 22/2023/QH15 (Luật Đấu thầu 2023) | Khung pháp lý tổng thể | 01/01/2024 |
-| NĐ 214/2025/NĐ-CP | Chi tiết thi hành Luật ĐT 2023; thay NĐ 24/2024 | Xem NĐ |
-| TT 79/2025/TT-BTC; TT 80/2025/TT-BTC | Mẫu HSMT, mẫu báo cáo đánh giá | 2024 |
-| TT 79/2025/TT-BTC/TT-BKHĐT | Đấu thầu qua mạng, E-HSMT, E-HSDT | 2024 |
-| NĐ 122/2021/NĐ-CP (sửa đổi) | Xử phạt VPHC lĩnh vực đấu thầu | Xem NĐ |
+| Luật 22/2023/QH15 (Luật Đấu thầu 2023) | Khung pháp lý tổng thể về đấu thầu & lựa chọn nhà thầu | 01/01/2024 |
+| NĐ 214/2025/NĐ-CP | Quy định chi tiết thi hành Luật ĐT 2023 (thay NĐ 24/2024) | Xem NĐ |
+| TT 79/2025/TT-BTC | Hướng dẫn đăng tải thông tin & mẫu hồ sơ đấu thầu trên mạng ĐT quốc gia | 04/08/2025 |
+| TT 80/2025/TT-BTC | Mẫu hồ sơ yêu cầu, báo cáo đánh giá, thẩm định, kiểm tra hoạt động đấu thầu | 08/08/2025 |
+| NĐ 122/2021/NĐ-CP (sửa đổi) | Xử phạt vi phạm hành chính lĩnh vực đấu thầu | Xem NĐ |
