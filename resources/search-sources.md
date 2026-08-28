@@ -60,9 +60,9 @@ site:thuvienphapluat.vn "[lĩnh vực]" "2025" "nghị định"
 site:thuvienphapluat.vn "[lĩnh vực]" "có hiệu lực" "2025"
 ```
 
-### Đọc nội dung VB cụ thể (read_url_content)
+### Đọc nội dung VB cụ thể (web_fetch)
 
-Sau khi search_web tìm được URL → dùng `read_url_content` để đọc nội dung chi tiết điều/khoản. URL thuvienphapluat.vn thường có format:
+Sau khi search_web tìm được URL → dùng `web_fetch` để đọc nội dung chi tiết điều/khoản. URL thuvienphapluat.vn thường có format:
 ```
 https://thuvienphapluat.vn/van-ban/[linh-vuc]/[ten-van-ban]-[so-hieu]-[nam]-[so-id]
 ```
