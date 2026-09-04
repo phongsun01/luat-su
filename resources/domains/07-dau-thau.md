@@ -127,38 +127,54 @@ Vấn đề: [Hành vi đấu thầu] tại [Thời điểm]
 
 ## Adversarial Patterns — Đặc thù Đấu thầu
 
-> Bổ sung vào `resources/adversarial-patterns.md` mục §5.2 (hiện chỉ có 2 bẫy). Dùng trong pha DECIDE.
+> Bổ sung vào `resources/adversarial-patterns.md` mục §5.2 (7 bẫy thực chiến). Dùng trong pha DECIDE.
 
-**Bẫy 1 — Tiêu chí HSMT hạn chế cạnh tranh:**
-Luật ĐT 2023 Điều 44: HSMT không được đặt điều kiện hạn chế nhà thầu tham gia (ưu tiên thương hiệu cụ thể, yêu cầu kinh nghiệm quá cao so với quy mô gói thầu). Nếu bị phát hiện → HSMT vô hiệu, phải làm lại.
+**Bẫy 1 — Nhà thầu bị cấm tham dự:**
+NĐ 214/2025: Nhà thầu bị cấm tham dự đấu thầu nếu: đang trong thời gian bị cấm (do vi phạm trước đó), có quan hệ liên kết với nhà thầu khác trong cùng gói thầu, người ký đơn dự thầu không đúng thẩm quyền.
+```
+search: site:thuvienphapluat.vn "cấm tham dự đấu thầu" "214/2025" "điều kiện"
+search: site:thuvienphapluat.vn "liên kết" "nhà thầu" "cùng gói thầu" "214/2025"
+```
+
+**Bẫy 2 — E-HSDT ký số không đúng quy định:**
+Đấu thầu qua mạng: HSDT phải được ký số bởi người đại diện theo pháp luật hoặc người được ủy quyền hợp lệ. Ký số bằng chữ ký cá nhân thay vì chữ ký tổ chức → HSDT không hợp lệ.
+```
+search: site:thuvienphapluat.vn "chữ ký số" "hồ sơ dự thầu" "đại diện hợp pháp" "214/2025"
+```
+
+**Bẫy 3 — Tiêu chí HSMT hạn chế cạnh tranh:**
+Luật ĐT 2023 Điều 44: HSMT không được đặt điều kiện hạn chế nhà thầu tham gia (ưu tiên thương hiệu cụ thể, yêu cầu kinh nghiệm quá cao so với quy mô gói thầu). Nếu bị phát hiện → HSMT vô hiệu, phải làm lại từ đầu.
 ```
 search: site:thuvienphapluat.vn "hạn chế cạnh tranh" "tiêu chí" "22/2023" "điều 44"
 search: site:thuvienphapluat.vn "yêu cầu kỹ thuật" "không phù hợp" "214/2025"
 ```
 
-**Bẫy 2 — Thông thầu / Liên kết nhà thầu:**
-NĐ 214/2025: Các nhà thầu có quan hệ (cùng người đại diện pháp luật, cùng địa chỉ trụ sở, có quan hệ công ty mẹ-con) không được đồng thời tham dự cùng gói thầu. Vi phạm → hủy KQLCNT, cấm tham dự.
+**Bẫy 4 — Thông thầu / Liên kết nhà thầu:**
+NĐ 214/2025: Các nhà thầu có quan hệ (cùng người đại diện pháp luật, cùng địa chỉ trụ sở, có quan hệ công ty mẹ-con) không được đồng thời tham dự cùng gói thầu. Vi phạm → hủy KQLCNT, cấm tham dự, có thể truy cứu hình sự tội thông thầu.
 ```
 search: site:thuvienphapluat.vn "liên kết" "nhà thầu" "cùng gói thầu" "214/2025"
 search: site:thuvienphapluat.vn "thông thầu" "xử lý" "hình sự" "22/2023"
 ```
 
-**Bẫy 3 — Điều chỉnh HĐ vượt quy định:**
-Luật ĐT 2023 Điều 61: HĐ chỉ được điều chỉnh giá trong các trường hợp cụ thể (trượt giá, thay đổi khối lượng, thay đổi pháp luật). Điều chỉnh ngoài phạm vi → vi phạm, có thể bị coi là thất thoát NSNN.
+**Bẫy 5 — Điều chỉnh HĐ vượt phạm vi cho phép:**
+Luật ĐT 2023 Điều 61: HĐ chỉ được điều chỉnh giá trong các trường hợp cụ thể (trượt giá theo chỉ số, thay đổi khối lượng phát sinh, thay đổi chính sách pháp luật). Điều chỉnh ngoài phạm vi → vi phạm, có thể bị coi là thất thoát NSNN → truy cứu hình sự.
 ```
 search: site:thuvienphapluat.vn "điều chỉnh hợp đồng" "điều kiện" "điều 61" "22/2023"
+search: site:thuvienphapluat.vn "điều chỉnh giá hợp đồng" "không thuộc trường hợp" "214/2025"
 ```
 
-**Bẫy 4 — Bảo lãnh không đúng mẫu/hết hiệu lực:**
-NĐ 214/2025: Bảo lãnh dự thầu và bảo lãnh thực hiện HĐ phải theo mẫu quy định, còn hiệu lực tại thời điểm mở thầu/ký HĐ. Bảo lãnh hết hạn trước thời điểm quy định → HSDT không hợp lệ.
+**Bẫy 6 — Bảo lãnh dự thầu không đúng mẫu hoặc hết hiệu lực:**
+NĐ 214/2025: Bảo lãnh dự thầu phải theo mẫu quy định, còn hiệu lực tại thời điểm mở thầu (hiệu lực bảo lãnh = thời gian có hiệu lực HSDT + 30 ngày). Bảo lãnh hết hạn trước thời điểm quy định hoặc sai mẫu → HSDT không hợp lệ, bị loại ngay bước sơ bộ.
 ```
 search: site:thuvienphapluat.vn "bảo lãnh dự thầu" "mẫu" "hiệu lực" "214/2025"
+search: site:thuvienphapluat.vn "bảo lãnh" "không hợp lệ" "loại hồ sơ" "22/2023"
 ```
 
-**Bẫy 5 — Kinh nghiệm tương tự bị tính sai:**
-NĐ 214/2025: Kinh nghiệm tương tự phải là HĐ đã hoàn thành (không phải đang thực hiện), trong vòng X năm trước thời điểm đóng thầu, có quy mô và tính chất tương đương. Nhà thầu khai sai → bị loại, có thể bị cấm tham dự.
+**Bẫy 7 — Kinh nghiệm tương tự tính sai điều kiện:**
+NĐ 214/2025: Kinh nghiệm tương tự phải là HĐ đã hoàn thành (không phải đang thực hiện dở), trong vòng X năm trước ngày đóng thầu, có quy mô và tính chất tương đương gói thầu đang xét. Nhà thầu khai HĐ chưa hoàn thành hoặc quá X năm → bị loại, nếu cố tình khai sai → cấm tham dự.
 ```
-search: site:thuvienphapluat.vn "kinh nghiệm tương tự" "hợp đồng tương tự" "điều kiện" "214/2025"
+search: site:thuvienphapluat.vn "kinh nghiệm tương tự" "hợp đồng tương tự" "đã hoàn thành" "214/2025"
+search: site:thuvienphapluat.vn "khai sai" "hồ sơ dự thầu" "cấm tham dự" "22/2023"
 ```
 
 ---
