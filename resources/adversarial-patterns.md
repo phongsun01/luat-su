@@ -344,6 +344,43 @@ Luật TTHC 2015 Điều 116: 1 năm kể từ ngày nhận được QĐ hành c
 search: site:thuvienphapluat.vn "thời hiệu khởi kiện" "1 năm" "quyết định hành chính" "93/2015"
 ```
 
+**Bẫy 4 — Tính sai ngày bắt đầu thời hiệu khiếu nại:**
+Thời hiệu 90 ngày tính từ ngày **nhận được** QĐ, không phải ngày QĐ được ký. Nếu QĐ không được tống đạt đúng luật (không giao tận tay, không có biên nhận) → thời hiệu chưa bắt đầu chạy. Đây là lập luận bảo vệ quan trọng khi bị cho là hết thời hiệu.
+```
+search: site:thuvienphapluat.vn "ngày nhận được quyết định" "thời hiệu" "tống đạt" "02/2011"
+```
+
+---
+
+### 6.2 Kiến nghị trong Đấu thầu (Luật ĐT 2023 + NĐ 214/2025)
+
+> **Lưu ý thuật ngữ:** Luật ĐT 2023 không còn "bên mời thầu" trong quy trình kiến nghị — chỉ còn "chủ đầu tư". Tài liệu cũ nhắc đến "bên mời thầu" trong ngữ cảnh kiến nghị → áp dụng NĐ 214/2025.
+
+**Bẫy 1 — Kiến nghị và khởi kiện/khiếu nại đồng thời — chấm dứt ngay:**
+Luật ĐT 2023 Điều 89 K.2: Đang trong quá trình giải quyết kiến nghị mà nhà thầu khởi kiện/khiếu nại/tố cáo → việc giải quyết kiến nghị chấm dứt ngay (không phải tạm dừng — chấm dứt hẳn). Ngược lại, đã khởi kiện thì không được kiến nghị. Phải chọn một con đường từ đầu.
+```
+search: site:thuvienphapluat.vn "chấm dứt" "kiến nghị" "khởi kiện" "điều 89" "22/2023"
+search: site:thuvienphapluat.vn "điều kiện xem xét kiến nghị" "214/2025" "điều 137"
+```
+
+**Bẫy 2 — Gửi đồng thời đến cả chủ đầu tư và bộ phận thường trực:**
+NĐ 214/2025 Điều 138: Nếu nhà thầu gửi đơn đồng thời đến cả bộ phận thường trực VÀ chủ đầu tư → Hội đồng GQKN có thẩm quyền giải quyết (không phải chủ đầu tư). Nhiều nhà thầu gửi đồng thời để "chắc ăn" nhưng vô tình kích hoạt quy trình Hội đồng (chậm hơn, phức tạp hơn).
+```
+search: site:thuvienphapluat.vn "đồng thời" "bộ phận thường trực" "hội đồng" "214/2025"
+```
+
+**Bẫy 3 — Không nộp chi phí kiến nghị đúng hạn:**
+NĐ 214/2025: Sau khi bộ phận thường trực thông báo, nhà thầu phải nộp chi phí GQKN trong **2 ngày làm việc**. Quá hạn = không đủ điều kiện xem xét. Không có gia hạn, không có ngoại lệ. Chi phí này hoàn trả nếu kiến nghị đúng, không hoàn trả nếu sai.
+```
+search: site:thuvienphapluat.vn "chi phí giải quyết kiến nghị" "2 ngày làm việc" "214/2025"
+```
+
+**Bẫy 4 — Thành viên Hội đồng GQKN có xung đột lợi ích:**
+NĐ 214/2025 Điều 139: Thành viên Hội đồng không được là người có quan hệ gia đình với người ký đơn kiến nghị; không được là thành viên tổ chuyên gia, tổ thẩm định; không được là người đã ký phê duyệt KQLCNT. Vi phạm → kết quả GQKN có thể bị hủy khi khiếu nại lên cấp trên.
+```
+search: site:thuvienphapluat.vn "thành viên hội đồng" "xung đột lợi ích" "không được" "214/2025" "điều 139"
+```
+
 ---
 
 ## 7. Giao thoa Lĩnh vực — Bẫy thường gặp khi hai luật cùng áp dụng
