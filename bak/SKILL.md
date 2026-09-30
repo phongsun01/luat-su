@@ -1,5 +1,5 @@
 ---
-name: tu-van-phap-luat
+name: luat-su
 description: TƯ VẤN ĐƯỜNG LỐI XỬ LÝ VẤN ĐỀ PHÁP LÝ VIỆT NAM — ĐỊNH DANH VẤN ĐỀ THEO 5 TRỤC, VẼ ISSUE GRAPH TOÀN CẢNH, THU THẬP NGUYÊN VĂN SONG SONG THEO TỪNG NHÁNH, TỰ PHẢN BIỆN TRƯỚC KHI KẾT LUẬN (LEGAL OODA LOOP). Hỗ trợ tra chéo VB gốc-sửa đổi-NĐ-TT, xây SOT với trích dẫn nguyên văn có tọa độ, xử lý xung đột Lex, tự kiểm tra phản đề (ngoại lệ/loại trừ/VB bác phương án), so sánh phương án với điểm Pháp lý/Rủi ro/Khả thi, khuyến nghị đường lối hành động. Kích hoạt khi user đề cập 'pháp luật', 'tư vấn luật', 'tranh chấp', 'bị kiện', 'nghị định'; yêu cầu 'tôi phải làm gì', 'luật quy định thế nào', 'xử lý tình huống này'; nói 'muốn khiếu nại', 'đòi bồi thường', 'thành lập công ty'; trong tình huống gặp vấn đề pháp lý cần đường lối giải quyết. KHÔNG dùng cho nghiên cứu phi pháp lý (→ nghien-cuu-pdca), viết bài (→ viet-chuyen-nghiep). Dùng cho MỌI vấn đề pháp lý — kể cả khi user chỉ nói 'tình huống này xử lý sao' mà không nhắc 'luật'.
 ---
 
@@ -24,9 +24,11 @@ description: TƯ VẤN ĐƯỜNG LỐI XỬ LÝ VẤN ĐỀ PHÁP LÝ VIỆT NAM
 Trước khi tra cứu bất cứ điều gì, PHẢI khởi tạo không gian, xác định trục tọa độ và vẽ bản đồ vấn đề.
 
 ### 0.1 — Khởi tạo Thư mục & File (Cơ chế N+1 Bắt buộc)
-- Tạo thư mục `legal_research_[chủ_đề]/`.
+- Tạo thư mục `legal_research_[chủ_đề]/` bằng `write_file` với **đường dẫn tương đối** (VD: `legal_research_sa_thai/legal_phase_1.md`) — KHÔNG dùng đường dẫn tuyệt đối.
 - Kiểm tra xem đã có `legal_phase_X.md` chưa. Đọc file mới nhất để lấy SOT nếu có.
 - Tạo file mới `legal_phase_{N+1}.md`.
+
+> ⚠️ **Lưu ý kỹ thuật:** `write_file` và `read_file` chỉ hoạt động với **đường dẫn tương đối** (relative path). Đừng bao giờ truyền đường dẫn tuyệt đối (bắt đầu bằng `D:\`, `C:\`, `/`). Ví dụ đúng: `legal_research_sa_thai/legal_phase_1.md`. Ví dụ sai: `D:\Antigravity\Hermes\legal_research_...`
 
 ### 0.2 — Định danh 5 Trục Pháp lý
 
@@ -77,7 +79,12 @@ Vấn đề gốc: [Hành vi] của [Đối tượng] tại [Thời điểm]
 
 Đây là **lõi thực thi duy nhất**. Thực thi 4 pha theo thứ tự: OBSERVE → ORIENT → DECIDE → ACT. Mọi dữ kiện phải ghi nối (Append) xuống cuối file `legal_phase_X.md` — không được xóa hay sửa entry cũ.
 
-**BẮT BUỘC** load `resources/search-sources.md` và `resources/cross-reference-guide.md` trước pha OBSERVE — định nghĩa cú pháp search và checklist tra chéo 3 chiều.
+**BẮT BUỘC** load resources trước pha OBSERVE bằng **`skill_view` tool** (KHÔNG dùng `read_file` — resources nằm ngoài workspace):
+
+```
+skill_view("luat-su", "resources/search-sources.md")        ← cú pháp search + nguồn tin
+skill_view("luat-su", "resources/cross-reference-guide.md") ← checklist tra chéo 3 chiều
+```
 
 ---
 
@@ -117,7 +124,8 @@ Hiến pháp > Luật/Bộ luật > NĐ > QĐ Thủ tướng > TT > VB địa ph
 ```
 Đánh số thứ tự ưu tiên trong bảng SOT.
 
-**2. Kiểm tra tra chéo 3 chiều** (theo `cross-reference-guide.md`):
+**2. Kiểm tra tra chéo 3 chiều** (load nếu chưa có: `skill_view("luat-su", "resources/cross-reference-guide.md")`):
+> Load `skill_view("luat-su", "resources/legal-system.md")` khi cần tra thứ bậc VB.
 - **Xuống:** VB gốc có NĐ/TT hướng dẫn chưa? Nếu chưa → thêm vào Q_B của OBSERVE vòng sau.
 - **Ngang:** VB gốc đã bị sửa đổi/thay thế/bãi bỏ chưa? Tra: `site:thuvienphapluat.vn "sửa đổi" "[số hiệu VB]"`.
 - **Thời gian:** Phiên bản nào áp dụng đúng mốc THỜI ĐIỂM? Kiểm tra điều khoản chuyển tiếp.
@@ -138,6 +146,11 @@ Ghi log ORIENT vào file phase: `## ORIENT — [timestamp/vòng N]` + kết qu�
 ### [DECIDE] — Tự Phản biện (Adversarial Check) ★
 
 Đây là pha phân biệt tư vấn chuyên nghiệp với tư vấn nghiệp dư. Sau khi có SOT ủng hộ phương án, **bắt buộc chơi vai luật sư đối phương** để tìm phản đề.
+
+**BẮT BUỘC** load thư viện mẫu phản đề trước pha DECIDE:
+```
+skill_view("luat-su", "resources/adversarial-patterns.md")   ← tra cứu bẫy pháp lý & VB phản chiều theo lĩnh vực
+```
 
 **3 câu hỏi bắt buộc:**
 
@@ -285,7 +298,17 @@ Load `resources/legal-system.md` khi cần tra cứu chi tiết. Tóm tắt:
 
 Trước khi tra cứu, Agent phải rà soát xem yêu cầu thuộc nhóm nào dưới đây, sau đó đọc (`view_file`) trực tiếp file module tương ứng trong `resources/domains/`.
 
-**Cách đọc file domain:** Lọc các hàng trong bảng "Vòng đời / Khâu kỹ thuật" có liên quan đến 5 trục đã xác định → rút ra danh sách VB từ cột **"Căn cứ pháp lý"** → đưa vào bảng SOT thô (chỉ lấy tên VB + số hiệu, chưa cần nguyên văn). Không đọc hết file nếu không liên quan — domain files có nhiều vòng đời, chỉ lấy phần khớp với Hành vi và Đối tượng của tình huống.
+**Cách đọc file domain:** Dùng **`skill_view` tool** với đường dẫn tương đối (KHÔNG dùng `read_file`):
+```
+skill_view("luat-su", "resources/domains/01-dan-su.md")
+skill_view("luat-su", "resources/domains/02-hinh-su-hanh-chinh.md")
+skill_view("luat-su", "resources/domains/03-doanh-nghiep-lao-dong.md")
+skill_view("luat-su", "resources/domains/04-dat-dai-xay-dung.md")
+skill_view("luat-su", "resources/domains/05-thue-tai-chinh.md")
+skill_view("luat-su", "resources/domains/06-chuyen-nganh-khac.md")
+skill_view("luat-su", "resources/domains/07-dau-thau.md")
+```
+Lọc các hàng trong bảng "Vòng đời / Khâu kỹ thuật" có liên quan đến 5 trục đã xác định → rút ra danh sách VB từ cột **"Căn cứ pháp lý"** → đưa vào bảng SOT thô (chỉ lấy tên VB + số hiệu, chưa cần nguyên văn). Không đọc hết file nếu không liên quan — domain files có nhiều vòng đời, chỉ lấy phần khớp với Hành vi và Đối tượng của tình huống.
 
 | Nhóm lĩnh vực | File Module Cần Đọc | Keyword nhận diện |
 |---|---|---|
@@ -293,19 +316,23 @@ Trước khi tra cứu, Agent phải rà soát xem yêu cầu thuộc nhóm nào
 | Hình sự & Hành chính | `resources/domains/02-hinh-su-hanh-chinh.md` | tội phạm, khởi tố, án treo, tham nhũng, phạt vi phạm, khiếu nại, tố cáo, giấy phép, phạt giao thông, căn cước. |
 | Doanh nghiệp & Lao động | `resources/domains/03-doanh-nghiep-lao-dong.md` | thành lập công ty, cổ đông, vốn, phá sản, đầu tư, sa thải, lương, BHXH, hợp đồng lao động, kỷ luật. |
 | Đất đai & Xây dựng | `resources/domains/04-dat-dai-xay-dung.md` | sổ đỏ, đền bù, chuyển nhượng, tiền SDĐ, giá đất, giấy phép xây dựng, chung cư, nhà ở xã hội, dự án BĐS. |
-| Thuế & Tài chính | `resources/domains/05-thue-tai-chinh.md` | khai thuế, hoàn thuế, truy thu, TNCN, TNDN, VAT, hóa đơn, đấu thầu, nhà thầu. |
+| Thuế & Tài chính | `resources/domains/05-thue-tai-chinh.md` | khai thuế, hoàn thuế, truy thu, TNCN, TNDN, VAT, hóa đơn, tài chính doanh nghiệp. |
+| Đấu thầu & Mua sắm công | `resources/domains/07-dau-thau.md` | đấu thầu, HSMT, HSDT, nhà thầu, gói thầu, KQLCNT, bảo lãnh dự thầu, chỉ định thầu, chào hàng cạnh tranh, muasamcong, KHLCNT. |
 | Chuyên ngành Khác | `resources/domains/06-chuyen-nganh-khac.md` | an ninh mạng, dữ liệu, AI, chữ ký số, nhãn hiệu, bản quyền, ĐTM, ô nhiễm, GPLX, điện lực, năng lượng. |
 
 ---
 
 ## 8. Bản đồ Resources bổ trợ
 
-| File | Nội dung | Load khi nào |
+| File | Lệnh `skill_view` | Load khi nào |
 |---|---|---|
-| `resources/legal-system.md` | Thứ bậc, hiệu lực, xung đột, quan hệ VB | Bước 0.2 (phân loại) + ORIENT (xếp thứ bậc) |
-| `resources/cross-reference-guide.md` | Tra chéo 3 chiều: xuống-ngang-thời gian | **BẮT BUỘC** trước OBSERVE vòng đầu + ORIENT |
-| `resources/citation-format.md` | Chuẩn trích dẫn + template SOT | OBSERVE (trích dẫn) + ACT (ghép SOT) |
-| `resources/search-sources.md` | Nguồn tin cậy + cú pháp tìm kiếm | **BẮT BUỘC** trước OBSERVE vòng đầu |
+| `resources/legal-system.md` | `skill_view("luat-su", "resources/legal-system.md")` | Bước 0.2 + ORIENT |
+| `resources/cross-reference-guide.md` | `skill_view("luat-su", "resources/cross-reference-guide.md")` | **BẮT BUỘC** trước OBSERVE + ORIENT |
+| `resources/citation-format.md` | `skill_view("luat-su", "resources/citation-format.md")` | OBSERVE (trích dẫn) + ACT |
+| `resources/search-sources.md` | `skill_view("luat-su", "resources/search-sources.md")` | **BẮT BUỘC** trước OBSERVE |
+| `resources/adversarial-patterns.md` | `skill_view("luat-su", "resources/adversarial-patterns.md")` | **BẮT BUỘC** trước DECIDE |
+
+> ⚠️ **QUAN TRỌNG:** Luôn dùng `skill_view` tool để đọc tất cả file trong `resources/`. **Tuyệt đối không** dùng `read_file` hay `terminal` để đọc — các tool đó không truy cập được path ngoài workspace.
 
 ---
 
