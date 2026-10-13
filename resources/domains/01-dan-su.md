@@ -1,5 +1,12 @@
 # Bản đồ Quy trình: Dân sự, Gia đình & Tố tụng Dân sự
 
+<!--
+version: 1.0
+baseline: 20/07/2026
+next_review: 2027-01-20
+changed: Baseline 07/2026 — BLDS 2015, Luật HNGĐ 2014, BLTTDS 2015
+-->
+
 > **Baseline:** 20/07/2026
 > **Keyword nhận diện chung:** hợp đồng, vay mượn, bồi thường, thừa kế, di chúc, ly hôn, thế chấp, án phí, khởi kiện.
 

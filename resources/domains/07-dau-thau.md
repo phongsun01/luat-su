@@ -1,5 +1,12 @@
 # Bản đồ Quy trình: Đấu thầu & Lựa chọn Nhà thầu
 
+<!--
+version: 1.0
+baseline: 20/07/2026
+next_review: 2027-01-20
+changed: Baseline 07/2026 — Luật ĐT 2023, NĐ 214/2025 (thay NĐ 24/2024), TT 79+80/2025 (thay TT 06+07/2024)
+-->
+
 > **Baseline:** 20/07/2026
 > **Keyword nhận diện:** đấu thầu, HSMT, HSDT, nhà thầu, gói thầu, KQLCNT, bảo lãnh dự thầu, bảo lãnh thực hiện HĐ, chỉ định thầu, chào hàng cạnh tranh, mua sắm trực tiếp, đấu thầu qua mạng, E-HSMT, muasamcong, KHLCNT.
 >

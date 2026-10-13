@@ -1,5 +1,12 @@
 # Bản đồ Quy trình: Hình sự, Hành chính & Khiếu nại Tố cáo
 
+<!--
+version: 1.0
+baseline: 20/07/2026
+next_review: 2027-01-20
+changed: Baseline 07/2026 — BLTTHS 2015 (sửa bởi 99/2025), Luật KN 2011, Luật TC 2018
+-->
+
 > **Baseline:** 20/07/2026
 > **Keyword nhận diện chung:** tội phạm, bị cáo, khởi tố, bắt giam, truy tố, xét xử, án phạt, phạt vi phạm, khiếu nại, tố cáo, cưỡng chế.
 

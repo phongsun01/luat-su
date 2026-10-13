@@ -1,5 +1,12 @@
 # Domain Module 08: Hành chính & Kiến nghị Khiếu nại
 
+<!--
+version: 1.0
+baseline: 20/07/2026
+next_review: 2027-01-20
+changed: Baseline 07/2026 — Luật ĐT 2023 Điều 88-89, NĐ 214/2025 Điều 137-139 (Điều 90-93 chuyển về NĐ), Luật KN 2011, Luật TTHC 2015
+-->
+
 > **Baseline:** 20/07/2026
 > **Quan hệ với domain khác:** File này bổ trợ trực tiếp cho `07-dau-thau.md` (Vòng đời 5) và `02-hinh-su-hanh-chinh.md`. Khi gặp tình huống kiến nghị trong đấu thầu hoặc khiếu nại quyết định hành chính liên quan dự án, đọc file này thay vì file 02.
 >

@@ -7,25 +7,28 @@
 
 ## 1. Thứ bậc Hiệu lực VBQPPL
 
-Hệ thống 15 cấp, từ cao xuống thấp. VB cấp trên có giá trị pháp lý cao hơn VB cấp dưới.
+Hệ thống thứ bậc hiệu lực VBQPPL theo Luật Ban hành văn bản quy phạm pháp luật (từ cao xuống thấp). VB cấp trên có giá trị pháp lý cao hơn VB cấp dưới.
 
-| Cấp | Loại văn bản | Cơ quan ban hành |
-|---|---|---|
-| 1 | Hiến pháp | Quốc hội |
-| 2 | Bộ luật, Luật, Nghị quyết | Quốc hội |
-| 3 | Pháp lệnh, Nghị quyết; NQ liên tịch UBTVQH-MTTQ; NQ liên tịch UBTVQH-CP-MTTQ | Ủy ban Thường vụ QH |
-| 4 | Lệnh, Quyết định | Chủ tịch nước |
-| 5 | Nghị định, Nghị quyết; NQ liên tịch CP-MTTQ | Chính phủ |
-| 6 | Quyết định | Thủ tướng Chính phủ |
-| 7 | Nghị quyết | Hội đồng Thẩm phán TANDTC |
-| 8 | Thông tư | Bộ trưởng, Chánh án TANDTC, Viện trưởng VKSNDTC, Tổng KTNN |
-| 9 | Thông tư liên tịch | Chánh án + Viện trưởng + TKTNN + Bộ trưởng |
-| 10 | Nghị quyết HĐND cấp tỉnh | HĐND tỉnh/TP trực thuộc TW |
-| 11 | Quyết định UBND cấp tỉnh | UBND tỉnh/TP trực thuộc TW |
-| 12 | Quyết định Chủ tịch UBND cấp tỉnh | Chủ tịch UBND tỉnh |
-| 13 | VB QPPL đặc khu hành chính-kinh tế | Chính quyền đặc khu |
-| 14 | Nghị quyết HĐND cấp huyện/xã | HĐND huyện/xã |
-| 15 | Quyết định UBND cấp huyện/xã | UBND huyện/xã |
+| Cấp | Loại văn bản | Cơ quan ban hành | Ghi chú thẩm quyền |
+|---|---|---|---|
+| 1 | Hiến pháp | Quốc hội | Đạo luật cơ bản, hiệu lực pháp lý cao nhất |
+| 2 | Bộ luật, Luật, Nghị quyết | Quốc hội | |
+| 3 | Pháp lệnh, Nghị quyết; NQ liên tịch UBTVQH-MTTQ; NQ liên tịch UBTVQH-CP-MTTQ | Ủy ban Thường vụ QH | |
+| 4 | Lệnh, Quyết định | Chủ tịch nước | |
+| 5 | Nghị định, Nghị quyết; NQ liên tịch CP-MTTQ | Chính phủ | |
+| 6 | Quyết định | Thủ tướng Chính phủ | |
+| 7 | Nghị quyết | Hội đồng Thẩm phán TANDTC | Hướng dẫn áp dụng thống nhất pháp luật |
+| 8 | Thông tư | Bộ trưởng, Chánh án TANDTC, Viện trưởng VKSNDTC, Tổng KTNN | |
+| 9 | Thông tư liên tịch | Chánh án TANDTC + Viện trưởng VKSNDTC + TKTNN + Bộ trưởng | |
+| 10 | Nghị quyết HĐND cấp tỉnh | HĐND tỉnh/TP trực thuộc TW | Cấp tỉnh |
+| 11 | Quyết định UBND cấp tỉnh | UBND tỉnh/TP trực thuộc TW | Cấp tỉnh |
+| 12 | Văn bản QPPL chính quyền Đơn vị HC-KT đặc biệt | Chính quyền Đơn vị HC-KT đặc biệt | Theo luật định |
+| 13 | Nghị quyết HĐND cấp xã | HĐND cấp xã | Cấp xã (trong trường hợp luật giao) |
+| 14 | Quyết định UBND cấp xã | UBND cấp xã | Cấp xã (trong trường hợp luật giao) |
+
+> 📌 **Lưu ý cải cách thể chế địa phương (từ 01/07/2025):** 
+> - Chính quyền cấp huyện (HĐND, UBND huyện/quận/thị xã) **không còn thẩm quyền ban hành VBQPPL**. Các văn bản chỉ đạo của cấp huyện chỉ mang tính chất văn bản hành chính cá biệt hoặc văn bản áp dụng pháp luật.
+> - Cấp xã chỉ ban hành VBQPPL khi được luật, nghị quyết của Quốc hội giao quy định cụ thể vấn đề được phân cấp.
 
 ---
 

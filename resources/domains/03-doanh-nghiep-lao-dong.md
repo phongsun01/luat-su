@@ -1,5 +1,12 @@
 # Bản đồ Quy trình: Doanh nghiệp, Đầu tư & Lao động
 
+<!--
+version: 1.0
+baseline: 20/07/2026
+next_review: 2027-01-20
+changed: Baseline 07/2026 — Luật DN 2020 (sửa bởi 76/2025), BLLĐ 2019, Luật BHXH 2024, Luật Phá sản 142/2025
+-->
+
 > **Baseline:** 20/07/2026
 > **Keyword nhận diện chung:** thành lập công ty, cổ đông, vốn, phá sản, đầu tư, thương mại, sa thải, lương, BHXH, hợp đồng lao động, kỷ luật.
 

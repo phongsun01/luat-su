@@ -295,8 +295,10 @@ Trước khi tra cứu, Agent phải rà soát xem yêu cầu thuộc nhóm nào
 | Hình sự & Hành chính | `resources/domains/02-hinh-su-hanh-chinh.md` | tội phạm, khởi tố, án treo, tham nhũng, phạt vi phạm, khiếu nại, tố cáo, giấy phép, phạt giao thông, căn cước. |
 | Doanh nghiệp & Lao động | `resources/domains/03-doanh-nghiep-lao-dong.md` | thành lập công ty, cổ đông, vốn, phá sản, đầu tư, sa thải, lương, BHXH, hợp đồng lao động, kỷ luật. |
 | Đất đai & Xây dựng | `resources/domains/04-dat-dai-xay-dung.md` | sổ đỏ, đền bù, chuyển nhượng, tiền SDĐ, giá đất, giấy phép xây dựng, chung cư, nhà ở xã hội, dự án BĐS. |
-| Thuế & Tài chính | `resources/domains/05-thue-tai-chinh.md` | khai thuế, hoàn thuế, truy thu, TNCN, TNDN, VAT, hóa đơn, đấu thầu, nhà thầu. |
+| Thuế & Tài chính | `resources/domains/05-thue-tai-chinh.md` | khai thuế, hoàn thuế, truy thu, TNCN, TNDN, VAT, hóa đơn điện tử, hải quan, thanh tra thuế, quyết toán thuế. |
 | Chuyên ngành Khác | `resources/domains/06-chuyen-nganh-khac.md` | an ninh mạng, dữ liệu, AI, chữ ký số, nhãn hiệu, bản quyền, ĐTM, ô nhiễm, GPLX, điện lực, năng lượng. |
+| Đấu thầu & Lựa chọn Nhà thầu | `resources/domains/07-dau-thau.md` | đấu thầu, HSMT, HSDT, nhà thầu, gói thầu, KQLCNT, KHLCNT, bảo lãnh dự thầu, bảo lãnh thực hiện HĐ, chỉ định thầu, chào hàng cạnh tranh, mua sắm trực tiếp, đấu thầu qua mạng, E-HSMT, muasamcong, thẩm định thầu. |
+| Hành chính & Kiến nghị Khiếu nại | `resources/domains/08-hanh-chinh-khieu-nai.md` | kiến nghị KQLCNT, khiếu nại quyết định hành chính, tố cáo, hội đồng giải quyết kiến nghị, hủy thầu, khởi kiện hành chính, TTHC. ⚠️ Đọc file này thay vì 02 khi tình huống liên quan đến kiến nghị trong đấu thầu hoặc khiếu nại QĐ HC. |
 
 ---
 

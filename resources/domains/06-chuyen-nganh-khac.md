@@ -1,5 +1,12 @@
 # Bản đồ Quy trình: Công nghệ, SHTT, Môi trường & Năng lượng
 
+<!--
+version: 1.0
+baseline: 20/07/2026
+next_review: 2027-01-20
+changed: Baseline 07/2026 — Luật SHTT (sửa bởi 07/2022), Luật BVMT 2020, Luật AI 2025, Luật Dữ liệu 2024
+-->
+
 > **Baseline:** 20/07/2026
 > **Keyword nhận diện chung:** an ninh mạng, dữ liệu, AI, chữ ký số, nhãn hiệu, bản quyền, ĐTM, ô nhiễm, năng lượng.
 

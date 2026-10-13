@@ -1,5 +1,12 @@
 # Bản đồ Quy trình: Thuế, Phí & Hải quan
 
+<!--
+version: 1.0
+baseline: 20/07/2026
+next_review: 2027-01-20
+changed: Baseline 07/2026 — Luật QL Thuế sửa bởi 108/2025 (HL 01/07/2026), Luật Hải quan 2014
+-->
+
 > **Baseline:** 20/07/2026
 > **Keyword nhận diện chung:** khai thuế, hoàn thuế, truy thu, TNCN, TNDN, VAT, hóa đơn điện tử, hải quan, xuất nhập khẩu, thanh tra thuế, quyết toán thuế.
 

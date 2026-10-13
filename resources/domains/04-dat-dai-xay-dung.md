@@ -1,5 +1,12 @@
 # Bản đồ Quy trình: Đất đai, Xây dựng & Bất động sản
 
+<!--
+version: 1.0
+baseline: 20/07/2026
+next_review: 2027-01-20
+changed: Baseline 07/2026 — Luật Đất đai 2024, Luật Xây dựng 2025 (HL 01/07/2026), Luật KDBĐS 2023
+-->
+
 > **Baseline:** 20/07/2026
 > **Keyword nhận diện chung:** sổ đỏ, giải tỏa, đền bù, chuyển nhượng, quy hoạch, tiền SDĐ, giá đất, giấy phép xây dựng, chung cư, nhà ở xã hội, BĐS, thiết kế cơ sở, dự toán.
 

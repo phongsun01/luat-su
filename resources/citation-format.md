@@ -96,24 +96,25 @@ Ghi ngắn gọn trích dẫn này đóng vai trò gì trong vấn đề đang p
 
 ## 3. Ví dụ SOT Hoàn chỉnh
 
-**Vấn đề:** Công ty sa thải NLĐ vì lý do "tái cơ cấu" — không báo trước 45 ngày.
+**Vấn đề:** Doanh nghiệp cho NLĐ thôi việc vì lý do "tái cơ cấu tổ chức" — không thông báo trước 30 ngày cho UBND cấp tỉnh và NLĐ.
 **Mốc thời điểm:** 15/03/2025
 **Lĩnh vực:** Lao động
 
 | # | Tọa độ pháp lý | Trích dẫn nguyên văn | Trạng thái | Hiệu lực | Vai trò |
 |---|---|---|---|---|---|
-| 1 | BLLĐ 45/2019/QH14 – Đ.36, K.1 | "Người sử dụng lao động có quyền đơn phương chấm dứt hợp đồng lao động trong trường hợp sau đây: a) Người lao động thường xuyên không hoàn thành công việc theo hợp đồng lao động [...]" | đang hiệu lực | 01/01/2021 | Liệt kê căn cứ NSDLĐ đơn phương chấm dứt HĐLĐ |
-| 2 | BLLĐ 45/2019/QH14 – Đ.36, K.1, Đ.c | "Người sử dụng lao động [...] do thay đổi cơ cấu, công nghệ hoặc vì lý do kinh tế theo quy định tại Điều 42 [...]" | đang hiệu lực | 01/01/2021 | Căn cứ "tái cơ cấu" phải theo Điều 42 |
-| 3 | BLLĐ 45/2019/QH14 – Đ.42, K.1 | "Trường hợp thay đổi cơ cấu, công nghệ mà ảnh hưởng đến việc làm của nhiều người lao động thì người sử dụng lao động phải xây dựng và thực hiện phương án sử dụng lao động [...]" | đang hiệu lực | 01/01/2021 | Yêu cầu phải có phương án sử dụng LĐ |
-| 4 | BLLĐ 45/2019/QH14 – Đ.36, K.2 | "Khi đơn phương chấm dứt hợp đồng lao động, người sử dụng lao động phải báo trước cho người lao động: a) Ít nhất 45 ngày đối với hợp đồng lao động không xác định thời hạn [...]" | đang hiệu lực | 01/01/2021 | Nghĩa vụ báo trước 45 ngày |
-| 5 | BLLĐ 45/2019/QH14 – Đ.41, K.1 | "Khi đơn phương chấm dứt hợp đồng lao động trái pháp luật thì người sử dụng lao động [...] phải trả tiền lương, đóng bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp trong những ngày người lao động không được làm việc [...]" | đang hiệu lực | 01/01/2021 | Hệ quả sa thải trái luật |
+| 1 | BLLĐ 45/2019/QH14 – Đ.34, K.11 | "Các trường hợp chấm dứt hợp đồng lao động: [...] 11. Người sử dụng lao động cho người lao động thôi việc theo quy định tại Điều 42 và Điều 43 của Bộ luật này." | đang hiệu lực | 01/01/2021 | Cơ sở pháp lý chấm dứt HĐLĐ khi thay đổi cơ cấu |
+| 2 | BLLĐ 45/2019/QH14 – Đ.42, K.1 | "Những trường hợp sau đây được coi là thay đổi cơ cấu, công nghệ: a) Thay đổi cơ cấu tổ chức, tổ chức lại lao động; b) Thay đổi quy trình, công nghệ, máy móc, thiết bị sản xuất, kinh doanh gắn với ngành, nghề sản xuất, kinh doanh của người sử dụng lao động; c) Thay đổi sản phẩm hoặc cơ cấu sản phẩm." | đang hiệu lực | 01/01/2021 | Định nghĩa các trường hợp thay đổi cơ cấu, công nghệ |
+| 3 | BLLĐ 45/2019/QH14 – Đ.42, K.3 | "Trong trường hợp người sử dụng lao động không thể giải quyết được việc làm mà phải cho người lao động thôi việc thì phải trả trợ cấp mất việc làm theo quy định tại Điều 47 của Bộ luật này." | đang hiệu lực | 01/01/2021 | Nghĩa vụ trả trợ cấp mất việc làm |
+| 4 | BLLĐ 45/2019/QH14 – Đ.42, K.6 | "Việc cho người lao động thôi việc theo quy định tại Điều này chỉ được tiến hành sau khi đã trao đổi ý kiến với tổ chức đại diện người lao động tại cơ sở đối với nơi có tổ chức đại diện người lao động tại cơ sở mà người lao động là thành viên và thông báo trước 30 ngày cho Ủy ban nhân dân cấp tỉnh và cho người lao động." | đang hiệu lực | 01/01/2021 | Trình tự thủ tục bắt buộc: trao đổi công đoàn và thông báo trước 30 ngày |
+| 5 | BLLĐ 45/2019/QH14 – Đ.41, K.1 | "Khi đơn phương chấm dứt hợp đồng lao động trái pháp luật thì người sử dụng lao động [...] phải trả tiền lương, đóng bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp trong những ngày người lao động không được làm việc [...]" | đang hiệu lực | 01/01/2021 | Hệ quả xử lý cho thôi việc trái quy định pháp luật |
 
 ### Xung đột
 Không có xung đột trong SOT này.
 
 ### Kết luận từ SOT
-- NSDLĐ có quyền đơn phương do "tái cơ cấu" (Đ.36 K.1 Đ.c) NHƯNG phải theo Đ.42 (phương án sử dụng LĐ) VÀ Đ.36 K.2 (báo trước 45 ngày).
-- Nếu không báo trước 45 ngày → đơn phương trái pháp luật → Đ.41 (bồi thường).
+- Cho thôi việc vì lý do "tái cơ cấu tổ chức" được điều chỉnh bởi Điều 42 BLLĐ 2019 (khoản 11 Điều 34), **không phải** quyền đơn phương chấm dứt theo Điều 36 (báo trước 45 ngày).
+- NSDLĐ phải trao đổi với tổ chức đại diện người lao động tại cơ sở và **thông báo trước 30 ngày cho UBND cấp tỉnh và cho NLĐ** (Đ.42 K.6), đồng thời chi trả trợ cấp mất việc làm (Đ.42 K.3, Đ.47).
+- Nếu tự ý cho thôi việc mà không thông báo trước 30 ngày hoặc vi phạm trình tự Điều 42 $	o$ chấm dứt trái pháp luật, phải chịu trách nhiệm bồi thường và khôi phục quyền lợi theo Điều 41.
 
 ---
 
