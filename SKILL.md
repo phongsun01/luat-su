@@ -1,11 +1,48 @@
 ---
-name: tu-van-phap-luat
+name: luat-su
+version: 2.0.0
 description: TƯ VẤN ĐƯỜNG LỐI XỬ LÝ VẤN ĐỀ PHÁP LÝ VIỆT NAM — ĐỊNH DANH VẤN ĐỀ THEO 5 TRỤC, VẼ ISSUE GRAPH TOÀN CẢNH, THU THẬP NGUYÊN VĂN SONG SONG THEO TỪNG NHÁNH, TỰ PHẢN BIỆN TRƯỚC KHI KẾT LUẬN (LEGAL OODA LOOP). Hỗ trợ tra chéo VB gốc-sửa đổi-NĐ-TT, xây SOT với trích dẫn nguyên văn có tọa độ, xử lý xung đột Lex, tự kiểm tra phản đề (ngoại lệ/loại trừ/VB bác phương án), so sánh phương án với điểm Pháp lý/Rủi ro/Khả thi, khuyến nghị đường lối hành động. Kích hoạt khi user đề cập 'pháp luật', 'tư vấn luật', 'tranh chấp', 'bị kiện', 'nghị định'; yêu cầu 'tôi phải làm gì', 'luật quy định thế nào', 'xử lý tình huống này'; nói 'muốn khiếu nại', 'đòi bồi thường', 'thành lập công ty'; trong tình huống gặp vấn đề pháp lý cần đường lối giải quyết. KHÔNG dùng cho nghiên cứu phi pháp lý (→ nghien-cuu-pdca), viết bài (→ viet-chuyen-nghiep). Dùng cho MỌI vấn đề pháp lý — kể cả khi user chỉ nói 'tình huống này xử lý sao' mà không nhắc 'luật'.
 ---
 
 # Tư Vấn Pháp Luật — Legal OODA Loop
 
-> Khởi tạo Tọa độ & Issue Graph → OBSERVE (Thu thập song song theo nhánh) → ORIENT (Xếp thứ bậc & Giải xung đột) → DECIDE (Tự phản biện phản đề) → ACT (Đóng gói & Tư vấn đường lối).
+> **Mode Selector** (Mức 1/2/3) → Khởi tạo Tọa độ & Issue Graph → OBSERVE (Thu thập song song theo nhánh) → ORIENT (Xếp thứ bậc & Giải xung đột) → DECIDE (Tự phản biện phản đề) → **AUDIT** (Kiểm chứng độc lập) → ACT (Đóng gói & Tư vấn đường lối — IRAC ở Mức 3).
+
+---
+
+## 0. Mode Selector — Chọn Luồng Thực thi ★ (Đọc trước mọi thứ)
+
+Trước khi làm bất kỳ việc gì, xác định mức độ phù hợp với yêu cầu. **Không được tự động chạy OODA đầy đủ cho mọi câu hỏi.**
+
+| Mức | Tên | Khi nào dùng | Luồng thực thi |
+|---|---|---|---|
+| **1** | **NHANH** | Câu hỏi tra cứu đơn lẻ: "Luật X còn hiệu lực không?", "Mức phạt Y là bao nhiêu?", "Thời hiệu Z là bao lâu?" | Fast Path (xem §0A) — trả lời thẳng 3–5 dòng. **Không tạo file, không chạy OODA.** |
+| **2** | **CHUẨN** | Tình huống pháp lý cần phân tích + khuyến nghị đường lối | OODA đầy đủ (§2 → §3 → §4). Tạo file phase + report. |
+| **3** | **SÂU** | Tình huống phức tạp: nhiều bên, rủi ro cao, tranh chấp thực tế, chuẩn bị hồ sơ kiện/kiến nghị | OODA đầy đủ + AUDIT độc lập (§3A) + IRAC (§4A). |
+
+**Cách xác định mức:**
+- Câu hỏi có từ "còn hiệu lực không", "mức phạt", "thời hiệu", "bao lâu", "bao nhiêu tiền" → **Mức 1**
+- Câu hỏi có "tôi phải làm gì", "xử lý thế nào", "có được phép không", "rủi ro gì" → **Mức 2**
+- Câu hỏi có "chuẩn bị hồ sơ", "viết đơn kiện", "kiến nghị KQLCNT", "tranh chấp", "bị khởi kiện" → **Mức 3**
+- User khai báo mức: ưu tiên tuyệt đối theo yêu cầu user.
+
+---
+
+### §0A — Fast Path (Mức 1 — NHANH)
+
+Dùng khi câu hỏi là tra cứu đơn lẻ, không cần phân tích tình huống.
+
+**Quy trình:**
+1. Kiểm tra hiệu lực VB (Fast Path từ `resources/search-sources.md` §0):
+   - Nếu câu hỏi về VB cụ thể → `search_web: site:thuvienphapluat.vn "[số hiệu VB]"` → đọc banner hiệu lực.
+2. Trả lời thẳng trong khung chat: **Kết luận 1–2 câu + Căn cứ pháp lý (tọa độ)**.
+3. Ghi thêm nếu có: điều kiện thay đổi kết luận ("Kết luận này đổi nếu VB đã được sửa đổi sau [ngày]").
+4. **Không** tạo thư mục, không tạo file phase, không viết report.
+
+**Ví dụ output Fast Path:**
+> **Kết luận:** NĐ 24/2024 đã hết hiệu lực từ 01/07/2025, thay thế bởi NĐ 214/2025/NĐ-CP.
+> **Căn cứ:** NĐ 214/2025/NĐ-CP – Điều 1, Khoản 1 (ngày hiệu lực 01/07/2025).
+> ⚠️ *Kết luận đổi nếu có NĐ sửa đổi 214/2025 được ban hành sau 07/2026.*
 
 ---
 
@@ -105,6 +142,18 @@ search_web: site:thuvienphapluat.vn "[keyword nhánh]" "[số hiệu VB từ SOT
 Sau khi thu thập xong → cập nhật trạng thái Issue Graph: `[ ]` → `[~]` hoặc `[✓]`.
 Ghi log OBSERVE vào file phase: `## OBSERVE — [timestamp/vòng N]` + danh sách kết quả theo nhánh.
 
+**Khi nhánh bị tắc (không tìm được nguyên văn sau 1 vòng):**
+Không lặp lại cùng keyword. Đổi hướng tìm theo PDCA cascade 3 chiều:
+```
+Chiều XUỐNG:  "[keyword]" → bỏ keyword chung, tìm NĐ/TT hướng dẫn cụ thể hơn
+              search: site:thuvienphapluat.vn "quy định chi tiết" "[tên luật]"
+Chiều NGANG:  VB gốc có thể đã bị sửa/thay → tìm VB sửa đổi
+              search: site:thuvienphapluat.vn "sửa đổi" "[số hiệu VB gốc]"
+Chiều THỜI GIAN: Thời điểm user có thể rơi vào giai đoạn chuyển tiếp
+              → kiểm tra điều khoản chuyển tiếp cuối VB mới nhất
+```
+Nếu sau 3 chiều vẫn không có → ghi `[GAP: lý do]` vào nhánh đó, tiếp tục các nhánh còn lại.
+
 ---
 
 ### [ORIENT] — Xếp thứ bậc & Giải xung đột Lex
@@ -166,6 +215,37 @@ Ghi log DECIDE vào file phase: `## DECIDE — [timestamp/vòng N]` + kết qu�
 
 ---
 
+### §3A — [AUDIT] — Kiểm chứng Trích dẫn Độc lập ★ (Bắt buộc ở Mức 3, Khuyến nghị Mức 2)
+
+> **Tại sao tách riêng:** Tự kiểm tra bằng chính suy luận vừa dùng thì dễ tự tha cho mình. Pha này tra lại từ đầu, độc lập với OBSERVE, như một "luật sư đối diện" kiểm tra hồ sơ.
+
+**Quy trình AUDIT — thực hiện TỪNG trích dẫn trong bảng SOT:**
+
+```
+Với mỗi VB đã trích dẫn (từ Luật xuống TT):
+  1. Tra lại trang TVPL của VB đó (không dùng cache từ OBSERVE):
+     → web_fetch: https://thuvienphapluat.vn/van-ban/[slug VB]
+  2. Kiểm tra 3 điểm:
+     ✓ Banner hiệu lực: còn hiệu lực / hết hiệu lực / hết hiệu lực một phần?
+     ✓ Nguyên văn: so khớp từng chữ với nội dung đã trích dẫn trong SOT
+     ✓ VB sửa đổi mới nhất: mục "Văn bản sửa đổi" trên trang TVPL — có VB nào
+       sửa điều khoản đang trích dẫn không?
+  3. Ghi kết quả vào SOT (cột "AUDIT"):
+     [OK] — nguyên văn khớp, còn hiệu lực, không bị sửa
+     [FIX: <lý do>] — sai nguyên văn / hết hiệu lực / bị sửa → cập nhật SOT
+```
+
+**Trường hợp đặc biệt cần AUDIT kỹ hơn:**
+- VB có cụm "sửa đổi, bổ sung một số điều" → bắt buộc đối chiếu bản hợp nhất
+- VB gần mốc thay đổi lớn (ví dụ: Luật ĐT 2023 từ 01/01/2024, NĐ 214/2025 từ 01/07/2025) → kiểm tra điều khoản chuyển tiếp
+- Luật do Quốc hội sửa nhiều luật cùng lúc (dạng Luật XX/202X/QHY sửa N luật) → chỉ trích phần điều khoản liên quan, không trích toàn văn
+
+**Ghi log AUDIT vào file phase:** `## AUDIT — [timestamp]` + bảng kết quả từng VB (OK/FIX) + tổng số lỗi phát hiện.
+
+**Nếu phát hiện [FIX]:** Cập nhật bảng SOT → chạy lại DECIDE nếu kết quả AUDIT thay đổi phương án tư vấn đáng kể.
+
+---
+
 ### [ACT] — Đánh giá Coverage & Quyết định tiếp theo
 
 Nhìn lại Issue Graph:
@@ -210,6 +290,17 @@ Tuyệt đối KHÔNG xuất toàn bộ nội dung tư vấn dài dòng lên khu
   - Rủi ro (1–5): Khả năng bất lợi?
   - Khả thi (1–5): Thực hiện được không?
 
+**§4A — Kết cấu IRAC (Bắt buộc Mức 3, Tùy chọn Mức 2 khi có tranh chấp):**
+> Dùng IRAC để trình bày lập luận pháp lý từng phương án thay vì chỉ liệt kê ưu/nhược.
+
+```
+I — Issue (Vấn đề): Câu hỏi pháp lý cốt lõi cần giải quyết là gì?
+R — Rule (Quy tắc): Quy tắc pháp lý áp dụng — trích nguyên văn SOT (tọa độ đầy đủ)
+A — Apply (Áp dụng): Áp Rule vào sự kiện cụ thể của tình huống. Chỉ nêu những gì trong SOT — không suy diễn thêm.
+C — Conclude (Kết luận): Kết luận rõ ràng + điều kiện thay đổi kết luận:
+    "Kết luận này đổi nếu [điều kiện X] — vì khi đó [hệ quả Y]."
+```
+
 **(4) Khuyến nghị đường lối + Lộ trình**
 - Phương án được khuyến nghị + lý do
 - Lộ trình bước tiếp cụ thể (hồ sơ cần chuẩn bị, cơ quan thụ lý, thời hạn)
@@ -217,18 +308,21 @@ Tuyệt đối KHÔNG xuất toàn bộ nội dung tư vấn dài dòng lên khu
 
 **(5) Cảnh báo & Bước tiếp theo**
 - Rủi ro pháp lý cần lưu ý
+- **Câu điều kiện đảo kết luận** (bắt buộc — ít nhất 1 câu):
+  > "Kết luận tư vấn trên sẽ thay đổi nếu: [điều kiện cụ thể — ví dụ: VB X thực ra đã bị sửa đổi / sự kiện Y được xác nhận khác đi / thông tin Z chưa được cung cấp]. Trong trường hợp đó: [hệ quả pháp lý mới]."
 - Trường hợp cần ý kiến luật sư/chuyên gia
 - Nguồn ngoài web đánh dấu `[Web]`
 - **Disclaimer**: "Nội dung tư vấn mang tính tham khảo, không thay thế ý kiến pháp lý chính thức."
 
 ---
 
-## 5. Quality Gate — 15 điểm
+## 5. Quality Gate — 18 điểm
 
 Trước khi xuất đầu ra, kiểm tra toàn bộ:
 
-**Khởi tạo:**
-1. ✅ Đã tạo thư mục `legal_research_...` và file `legal_phase_X.md` chưa?
+**Mode & Khởi tạo:**
+0. ✅ Đã xác định Mức (1/2/3) và chọn đúng luồng thực thi?
+1. ✅ Đã tạo thư mục `legal_research_...` và file `legal_phase_X.md` chưa? *(bỏ qua nếu Mức 1)*
 2. ✅ 5 trục đã xác định đầy đủ (đặc biệt THỜI ĐIỂM)?
 3. ✅ File phase đã có SOT thô (VB xương sống từ domain file) ở đầu chưa?
 4. ✅ Issue Graph đã được vẽ với đủ nhánh A, B, C chưa?
@@ -246,11 +340,16 @@ Trước khi xuất đầu ra, kiểm tra toàn bộ:
 10. ✅ Adversarial Check đã chạy đủ 3 câu hỏi (ngoại lệ / VB phản chiều / án lệ HĐTP)?
 11. ✅ Kết quả Adversarial đã ghi vào file phase (dù không tìm thấy phản đề)?
 
+**AUDIT:** *(bắt buộc Mức 3, khuyến nghị Mức 2)*
+12. ✅ Đã tra lại độc lập từng VB chính trong SOT (không dùng cache OBSERVE)?
+13. ✅ Banner hiệu lực + nguyên văn + VB sửa đổi mới nhất đã kiểm tra?
+14. ✅ Mọi [FIX] phát hiện đã cập nhật vào SOT?
+
 **Đóng gói & Report:**
-12. ✅ Tổng kết Truth/Actionable/Adversarial/Gap ở cuối file phase?
-13. ✅ Đã tạo file `legal_report_[chủ_đề].md` với cấu trúc 5 phần?
-14. ✅ Phương án xử lý đã đánh giá điểm Pháp lý/Rủi ro/Khả thi?
-15. ✅ Khung chat chỉ chứa tóm tắt 1 đoạn + link file Report?
+15. ✅ Tổng kết Truth/Actionable/Adversarial/Gap ở cuối file phase?
+16. ✅ Đã tạo file `legal_report_[chủ_đề].md` với cấu trúc 5 phần?
+17. ✅ Report có ≥1 câu điều kiện đảo kết luận ở Phần 5?
+18. ✅ Khung chat chỉ chứa tóm tắt 1 đoạn + link file Report?
 
 ---
 
